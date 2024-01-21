@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A számítógépek neme</title>
+</head>
+<body>
+    <div id="page">
+    <hr>
+    <p id="p1">
+        A Lausanne-i Egyetem kutatási eredménye <br>
+        a számítógépek neméről
+    </p>
+    <p id="p2"> 
+        Egy svájci vizsgálatban egy nőkből és egy férfiakból álló csoportnak azt kellett megmondania, hogy milyen nemű a számítógép, és négy érvvel kellett alátámasztaniuk álláspontjukat.
+    </p>
+    <p id="p3">
+        <span id="dőlt">A női szakértőcsoport</span> <span id="vastag">hímneműnek</span> találta a számítógépet, mert:
+    </p>
+
+        <span id="felsorolas01">
+            <div>
+                
+                <ul>
+                    <li>
+                        Előbb be kell kapcsolni, hogy aztán odafigyeljen az emberre.
+                    </li>
+                    <li>
+                        Tele van információval, de nincs fantáziája.
+                    </li>
+                    <li>
+                        Arra lenne, hogy segítse az embert, de az idő nagy részében ő maga <br> a probléma.
+                    </li>
+                    <li>
+                        Mihelyt az embernek van egy, rögtön rájön, hogy ha várt volna még egy kicsit, <br> jóval nagyobb teljesítményű modellt vehetett volna.
+                    </li>
+                </ul>
+                
+            </div>
+            <img src="images\male.png" alt="">
+        </span>
+
+        <p id="p3">
+            <span id="dőlt">A férfi szakértőcsoport szerint</span> <span id="vastag">nőnemű</span>, mert:
+        </p>
+        
+        <span id="felsorolas02">
+            <div>
+                
+                <ul>
+                    <li>
+                        Csak a teremtője érti a belső logikáját.
+                    </li>
+                    <li>
+                        Az a nyelv, amin egy másik számítógéppel beszél, teljesen érthetetlen.
+                    </li>
+                    <li>
+                        A legkisebb hibát is eltárolja a memóriájában, hogy aztán a <br> legalkalmatlanabb pillanatban hívja elő.
+                    </li>
+                    <li>
+                        Mihelyt az embernek van egy, rögtön rájön, hogy a keresetének felét <br>  kiegészítőkre kénytelen költeni.
+                    </li>
+                </ul>
+                
+            </div>
+            <img src="images\female.png" alt="">
+        </span>
+        <hr>
+        <p id="end">
+            ©Lausanne, 2016
+        </p>
+    </div>
+
+    <style>
+        hr{
+            color: #555555;
+        }
+        #felsorolas01{
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        #felsorolas02{
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        img{
+            width: 250px;
+        }
+        #page{
+            width: 900px;
+            margin: 0 auto;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px gray;
+            padding: 10px;
+        }
+        #p1{
+            text-align: center;
+            font-size: large;
+        }
+        #p2{
+            text-align: start;
+            font-weight: 100;
+        }
+        #p3{
+            text-align:center
+        }
+        #vastag{
+            font-weight: 1000;
+        }
+        #dőlt{
+            font-style: italic;
+            font-weight: 100;
+        }
+        #felsorolas1{
+            justify-content: flex-start;
+        }
+        #end{
+            text-align: end;
+        }
+    </style>
+</body>
+</html>
